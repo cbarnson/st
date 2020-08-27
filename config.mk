@@ -4,7 +4,8 @@ VERSION = 0.8.2
 # Customize below to fit your system
 
 # paths
-PREFIX ?= /home/lane/projects/st
+PREFIX ?= /usr/local
+# PREFIX ?= /home/lane/projects/st
 MANPREFIX = $(PREFIX)/share/man
 
 X11INC = /usr/include/X11R6
