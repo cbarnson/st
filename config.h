@@ -185,7 +185,6 @@ unsigned int tabspaces = 4;
 float alpha = 1.0;
 
 /* gruvbox-dark colorscheme */
-
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 		[0] = "#000000", /* black   */
