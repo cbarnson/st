@@ -1,0 +1,3 @@
+#!/bin/bash
+
+code -r /home/lane/.local/share/applications/st.desktop

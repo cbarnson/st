@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack:style-Regular";
+static char *font = "Liberation Mono:pixelsize=12:antialias=false:autohint=false";
 static char *font2[] = {"JoyPixels:pixelsize=10:antialias=true:autohint=true"};
 static int borderpx = 2;
 
@@ -17,7 +17,7 @@ static int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/bash";
+static char *shell = "/bin/sh";
 char *utmp = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
@@ -53,7 +53,7 @@ static double maxlatency = 33;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
- * attribute.    96 /* Terminal colors (16 first used in escape sequence) 
+ * attribute.    96 /* Terminal colors (16 first used in escape sequence)
  * */
 // static const char *colorname[] = {
 // 		/* 8 normal colors */
